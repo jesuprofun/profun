@@ -1,0 +1,18 @@
+
+def descending(numbers,count):
+    for i in range(count):
+        for j in range(i+1,count):
+            if numbers[i] < numbers[j]:
+                temp = numbers[j]
+                numbers[j] = numbers[i]
+                numbers[i] = temp
+    return(numbers)
+
+count = int(input("Enter the range: "))
+numbers = []
+for i in range(count):
+    n = int(input("Enter the numbers: "))
+    numbers.append(n)
+print(numbers)
+final = descending(numbers,count)
+print(final)
