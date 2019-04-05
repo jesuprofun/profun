@@ -1,4 +1,5 @@
 
+
 def factorial(m):
     n = 1
     if m > 0:
@@ -8,6 +9,6 @@ def factorial(m):
 
 
 
-a = int(input("Enter the number: "))
-factorial(a)
+number = int(input("Enter the number: "))
+factorial(number)
 
