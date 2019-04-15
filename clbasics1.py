@@ -19,4 +19,3 @@ print(sony.colour)
 print(sony.legs)
 print(pussy.colour)
 print(pussy.legs)
-sony.

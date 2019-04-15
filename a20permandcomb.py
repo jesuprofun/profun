@@ -29,3 +29,4 @@ elif choice == 2:
         num = int(input("Enter the numbers: "))
         comb.append(num)
     findperm(comb,n)
+
