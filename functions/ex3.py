@@ -6,7 +6,7 @@ def area(a,b):
     else:
         return a * b
 
-choice = int(input("1. Area of the circle\n2. Area of the rectangle\nEnter your choice"))
+choice = int(input("1. Area of the Square\n2. Area of the rectangle\nEnter your choice"))
 
 if choice == 1:
     side_of_square = int(input("Enter the side of the square: "))

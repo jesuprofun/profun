@@ -54,9 +54,9 @@
 # prime = [x for x in range(2,100) if i%x == 0]
 # print(prime)
 
-# l1 = [x for x in range(100)]
-# res_list = filter(lambda x:x%3==0, l1)
-# print(list(res_list))
+l1 = [x for x in range(100)]
+res_list = filter(lambda x:x%3==0, l1)
+print(list(res_list))
 #
 # def is_prime(x):
 #     for i in range(2,x):
@@ -66,6 +66,6 @@
 # print(l3)
 # third_list = filter(is_prime, l3)
 # print(list(third_list))
-
-result  = [x for x in range(20) if x%2==0 False]
-print(result)
+#
+# result  = [x for x in range(20) if x%2==0 False]
+# print(result)
