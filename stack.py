@@ -14,24 +14,26 @@ class stack:
         print(self.container)
 
 
-c1 = stack(None)
+if __name__ == '__main__':
 
-while True:
-    choice =int(input("1. Add numbers to the container\n2. Pop the number\n3. Display\n4. Exit\nEnter your choice"))
-    if choice == 1:
-        numbers = int(input("Enter the numbers: "))
-        c1.push(numbers)
-        print(c1.container)
+    c1 = stack(None)
 
-    if choice == 2:
-        print("The number {} is removed from the list".format(c1.pop()))
-        print("The container becomes ", c1.container)
+    while True:
+        choice =int(input("1. Add numbers to the container\n2. Pop the number\n3. Display\n4. Exit\nEnter your choice"))
+        if choice == 1:
+            numbers = int(input("Enter the numbers: "))
+            c1.push(numbers)
+            print(c1.container)
 
-    if choice == 3:
-        c1.display()
+        if choice == 2:
+            print("The number {} is removed from the list".format(c1.pop()))
+            print("The container becomes ", c1.container)
 
-    if choice == 4:
-        break
+        if choice == 3:
+            c1.display()
+
+        if choice == 4:
+            break
 
 
-print(c1.container)
+    print(c1.container)
