@@ -5,6 +5,7 @@ def fact(num):
     else:
         return num * fact(num - 1)
 
+
 number = int(input("Enter the number to find factorial: "))
 factorial = fact(number)
 print(factorial)

@@ -1,0 +1,44 @@
+
+class Queue:
+
+    def __init__(self, container, queue_size):
+        self.container = []
+        self.queue_size = queue_size
+
+    def push(self, container):
+        if len(self.container) < self.queue_size:
+            self.container.append(container)
+        else:
+            raise Exception("Container is full")
+
+    def out(self):
+        if len(self.container) == 0:
+            raise Exception("Queue is Empty")
+        else:
+            return self.container. pop(0)
+        
+    def __len__(self):
+        return len(self.container)
+
+    def __contains__(self, arg):
+        return arg in self.container
+
+
+if __name__ == '__main__':
+    q1 = Queue(None, 4)
+
+    while True:
+        choice = int(input("1. Enter number to the list\n2. Queue process\n3. Exit\nEnter your choice: "))
+        if choice == 1:
+            numbers = int(input("Enter the numbers: "))
+            q1.push(numbers)
+            print(q1.container)
+
+        elif choice == 2:
+            print("The first number {} is moved out".format(q1.out()))
+            print("The container becomes ", q1.container)
+
+        elif choice == 3:
+            break
+
+    print(q1.container)
