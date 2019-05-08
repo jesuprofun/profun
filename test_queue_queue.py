@@ -1,4 +1,4 @@
-from queue import *
+from queue_queue import *
 import pytest
 
 def test_push():
