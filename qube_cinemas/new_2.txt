@@ -1,0 +1,5 @@
+Python is a scripting language
+Python is interpreted, thus slower than running native code
+Whitespaces are ugly
+Python is strongly typed and well behaved
+Whitespaces are ugly
