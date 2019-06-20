@@ -1,44 +1,46 @@
 
-class Indexing:
+index = {}
+def read_file(file):
 
-    def __init__(self, size):
-        self.size = size
-        self.map = self.size * []
-        self.keys = []
+    with open(file, 'r') as file1:
+        words = file1.read().strip().split()
+    
+    return words
 
-    def put(self, keys, value):
-        count = 0
-        for key in keys:
-            if key in self.keys:
-                for i in self.map:
-                    if i[0] == key:
-                        if i[1][0] == value:
-                            count += 1
-                            i[1][1] = count
-                        else:
-                            pass
+def indexing(index, lyst, file_name):
+
+    
+    count = 1
+
+    for word in lyst:
+        if word not in index:
+            index[word] = {}
+            index[word][file_name] = count
+        elif file_name not in index[word]:
+            index[word][file_name] = count
+        else:
+            index[word][file_name] += 1  
+        
+    return index
+
+def write_file(index):
+    with open('index.txt', 'w') as file1:
+        for k,v in index.items():
+            file1.write(str(k) + ' is contained '+ str(v) + '\n' )
+    
+    
+
+lyst1 = read_file('new_1.txt')
+indexed = indexing(index, lyst1, 'new_1.txt')
 
 
-            else:
+lyst2 = read_file('new_2.txt')
+indexed2 = indexing(indexed, lyst2, 'new_2.txt')
+print(indexed2)
 
-                key_value = [key, [value, 0]]
-                self.map.append(key_value)
+lyst3 = read_file('new_3.txt')
+indexed3 = indexing(indexed2, lyst3, 'new_3.txt')
+print(indexed3)
 
-            self.keys.append(key)
-        for i in self.map:
-            print(i)
-        # print(self.keys)
+write_file(indexed3)
 
-
-
-ind1 = Indexing(50)
-with open('new_1.txt', 'r') as file1:
-    keys1 = file1.read().strip().split()
-
-with open('new_2.txt', 'r') as file1:
-    keys2 = file1.read().strip().split()
-
-keys = keys1 + keys2
-
-ind1.put(keys, 'new_1.txt')
-x
