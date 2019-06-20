@@ -1,9 +1,10 @@
-#function to arrange largest numbers in reverse order
+# function to arrange largest numbers in reverse order
 def largest(numbers):
     numbers.sort()
     numbers.reverse()
     return numbers
-#to find Nth largest number
+
+# to find Nth largest number
 def find(n,large):
     m = len(large)
     if n < m:
@@ -12,9 +13,7 @@ def find(n,large):
         return None
 
 
-
-
-#Getting numbers for the list
+# Getting numbers for the list
 x = int(input("Enter the number of elements: "))
 total = []
 for i in range(x):
