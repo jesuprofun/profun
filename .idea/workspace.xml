@@ -2,25 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd7204d4-5571-449f-9ffb-96046483a769" name="Default Changelist" comment="practise problems added">
-      <change afterPath="$PROJECT_DIR$/A30.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dictionaries/practise1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/program_playground/nthprime2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/34.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/hardway/classppt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/puzzles/hardway/classppt1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sort_selection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2.py" beforeDir="false" afterPath="$PROJECT_DIR$/A2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A3.py" beforeDir="false" afterPath="$PROJECT_DIR$/A3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a28nthlargest.py" beforeDir="false" afterPath="$PROJECT_DIR$/a28nthlargest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clbasics11.py" beforeDir="false" afterPath="$PROJECT_DIR$/clbasics11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex13.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fibonacci_recursion.py" beforeDir="false" afterPath="$PROJECT_DIR$/fibonacci_recursion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filesIO/ex4.py" beforeDir="false" afterPath="$PROJECT_DIR$/filesIO/ex4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nextprime.py" beforeDir="false" afterPath="$PROJECT_DIR$/nextprime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/puzzles/32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tempCodeRunnerFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qube_cinemas/index.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qube_cinemas/indexing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qube_cinemas/new_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qube_cinemas/new_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qube_cinemas/new_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qube_cinemas/searching.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,19 +19,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qube_cinemas/index.py">
+        <entry file="file://$PROJECT_DIR$/indexing_searching/indexing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="106">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="277">
+              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/qube_cinemas/index2.py">
+        <entry file="file://$PROJECT_DIR$/indexing_searching/searching.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="258">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -113,6 +101,7 @@
         <option value="$PROJECT_DIR$/hashmap/ex1.py" />
         <option value="$PROJECT_DIR$/qube_cinemas/index.py" />
         <option value="$PROJECT_DIR$/qube_cinemas/index2.py" />
+        <option value="$PROJECT_DIR$/indexing_searching/indexing.py" />
       </list>
     </option>
   </component>
@@ -127,6 +116,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -137,13 +127,12 @@
             <path>
               <item name="python_problems" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_problems" type="462c0819:PsiDirectoryNode" />
-              <item name="qube_cinemas" type="462c0819:PsiDirectoryNode" />
+              <item name="indexing_searching" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -165,7 +154,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.index2">
+  <component name="RunManager" selected="Python.searching">
     <configuration name="fibonacci_recursion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,27 +218,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="nested_list" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_problems" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nested_list.py" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nested_list.py/nested_list.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="problem" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="python_problems" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -271,13 +239,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="searching" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="python_problems" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/indexing_searching" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/indexing_searching/searching.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.searching" />
         <item itemvalue="Python.index2" />
         <item itemvalue="Python.index" />
         <item itemvalue="Python.fibonacci_recursion" />
         <item itemvalue="Python.problem" />
-        <item itemvalue="Python.nested_list" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +293,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19592476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -385,16 +373,50 @@
           <line>1</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/indexing_searching/searching.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/indexing_searching/searching.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/indexing_searching/searching.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/indexing_searching/searching.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/indexing_searching/searching.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/indexing_searching/searching.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/indexing_searching/searching.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/indexing_searching/searching.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/a19calculator.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a25oddevensum.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/functions/ex8.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -652,17 +674,19 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/hashmap/ex1.py" />
-    <entry file="file://$PROJECT_DIR$/qube_cinemas/index.py">
+    <entry file="file://$PROJECT_DIR$/qube_cinemas/index.py" />
+    <entry file="file://$PROJECT_DIR$/qube_cinemas/index2.py" />
+    <entry file="file://$PROJECT_DIR$/indexing_searching/indexing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="277">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qube_cinemas/index2.py">
+    <entry file="file://$PROJECT_DIR$/indexing_searching/searching.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state relative-caret-position="258">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
