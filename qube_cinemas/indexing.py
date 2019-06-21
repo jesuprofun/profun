@@ -29,19 +29,14 @@ def write_file(index):
     with open('index.txt', 'w') as file1:
         json.dump(index, file1)    
     
-    
+from sys import argv
 
-lyst1 = read_file('new_1.txt')
-indexed = indexing(index, lyst1, 'new_1.txt')
+file_lyst = argv[1:]
 
+for file in file_lyst:
+    file_input = read_file(file)
+    index = indexing(index, file_input, file)
 
-lyst2 = read_file('new_2.txt')
-indexed2 = indexing(indexed, lyst2, 'new_2.txt')
-print(indexed2)
+print(index)
 
-lyst3 = read_file('new_3.txt')
-indexed3 = indexing(indexed2, lyst3, 'new_3.txt')
-print(indexed3)
-
-write_file(indexed3)
-
+write_file(index)

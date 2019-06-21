@@ -13,8 +13,9 @@ def search_string(datas, string):
         for key in datas:
             if key == i:    
                 print("Searching for", i)
+                print('     found in ')
                 for value in datas[key]:
-                    print('     found in ' +  value)
+                    print('\t' + value)
                 print()
 
 
