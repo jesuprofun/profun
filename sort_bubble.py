@@ -5,7 +5,8 @@ length = len(lyst)
 for i in range(length):
     for j in range(i):
         if lyst[i] < lyst[j]:
-            temp = lyst[i]
-            lyst[i] = lyst[j]
-            lyst[j] = temp
+            lyst[i], lyst[j] = lyst[j], lyst[i]
+            # temp = lyst[i]
+            # lyst[i] = lyst[j]
+            # lyst[j] = temp
 print(lyst)

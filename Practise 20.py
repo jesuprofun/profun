@@ -1,12 +1,10 @@
 
-def is_prime(num):
-    if num > 1:
-        for i in range(2,num):
-            if num % i == 0:
-                return False
-        else:
-            return True
+lyst = [2, 4, 6, 3, 5, 7]
 
-lyst = [x for x in range(0,40)]
-res = list(filter(is_prime, lyst))
-print(res)
+big = lyst[0]
+
+for i in lyst:
+    if i > big:
+        big = i
+
+print(i)
