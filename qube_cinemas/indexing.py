@@ -24,9 +24,10 @@ def indexing(index, lyst, file_name):
     return index
 
 def write_file(index):
+    import json
+
     with open('index.txt', 'w') as file1:
-        for k,v in index.items():
-            file1.write(str(k) + ' is contained '+ str(v) + '\n' )
+        json.dump(index, file1)    
     
     
 
