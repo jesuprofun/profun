@@ -48,6 +48,31 @@ def conditional_search_and(datas, words):
     return search_result
 
 
+def search_phrases(datas, phrase):
+
+    lyst = []
+    for word in phrase:
+        print('>>>>>>>', word)
+        for key, value in datas.items():
+           if key == word:
+               for key1, value1 in datas[key].items():
+                    if key1 == "position":
+                        lyst.append(value1)
+                        print(value1)
+
+    print(lyst)
+    new_lyst = []
+    for item in lyst:
+        for i in item:
+            new_lyst.append(i)
+    print(new_lyst)
+
+    new_lyst.sort()
+
+    print(new_lyst)
+    
+
+
 def main():
     """ The main function to get input words passed in the command line 
         and to search the word in the index file """ 
@@ -60,11 +85,15 @@ def main():
     words = argv[2:]
     search_string(datas, words)
 
-    
-    
     # Conditional search using AND operator
     input_words = list(input("Enter Words for conditional searching: ").split())
     search_result = conditional_search_and(datas, input_words)
     print(search_result)
+
+    # Phrases search 
+    input_phrase = list(input("Enter the phrase:").split())
+    search_phrases(datas, input_phrase)
+
+
     
 main()

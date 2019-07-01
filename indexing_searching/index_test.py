@@ -15,20 +15,25 @@ def read_file(file):
 def create_index(index, words, file_name):
     """ Function to create index with arguments index as dictionary,
         words from the file and the file name """
-
+    
+    count = 0
     for word in words:
+        
         if word not in index:
             # Initially the nested dictionary is created for each word in words as key
             # and file_name with count as value
             index[word] = {}
             index[word][file_name] = 1
+            index[word]['position'] = [count]
         elif file_name not in index[word]:
             # To update the file_name
             index[word][file_name] = 1
         else:
             # To update the count
-            index[word][file_name] += 1  
-        
+            index[word][file_name] += 1 
+            index[word]['position'].append(count)  
+        count += 1
+
     return index
 
 
