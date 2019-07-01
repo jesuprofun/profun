@@ -16,6 +16,7 @@ def printing():
     for i in range(15):
         print("*", end = " ")
 
+lyst = []
 for i in range(4):
     printing()
     print("\n       Calculator")
@@ -28,20 +29,29 @@ for i in range(4):
     if choice == 1:
         ans = add(a, b)
         print("Sum of two numbers is : ", ans)
-        x = ("{} + {} = {}", a, b, ans)
-        print(x)
+        x = ("{} + {} = {}" .format(a, b, ans))
+        lyst.append(x)
 
     elif choice == 2:
         ans = sub(a, b)
         print("Difference between two numbers is : ", ans)
+        x = ("{} - {} = {}" .format(a, b, ans))
+        lyst.append(x)
 
     elif choice == 3:
         ans = mul(a, b)
         print("Product of two numbers is : ", ans)
+        x = ("{} * {} = {}" .format(a, b, ans))
+        lyst.append(x)
 
     elif choice == 4:
         ans = div(a, b)
         print("Quotient of two numbers is : ", ans)
+        x = ("{} / {} = {}" .format(a, b, ans))
+        lyst.append(x)
 
     else:
         print("Wrong Choice Dude.......")
+
+for i in lyst:
+    print(i)
